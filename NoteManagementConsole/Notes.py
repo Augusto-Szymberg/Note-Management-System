@@ -1,3 +1,22 @@
+#  _   _       _         __  __                                                   _   
+# | \ | |     | |       |  \/  |                                                 | |  
+# |  \| | ___ | |_ ___  | \  / | __ _ _ __   __ _  __ _  ___ _ __ ___   ___ _ __ | |_ 
+# | . ` |/ _ \| __/ _ \ | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '_ ` _ \ / _ \ '_ \| __|
+# | |\  | (_) | ||  __/ | |  | | (_| | | | | (_| | (_| |  __/ | | | | |  __/ | | | |_ 
+# |_| \_|\___/ \__\___| |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_| |_| |_|\___|_| |_|\__|
+#                                                  __/ |                              
+#                                                 |___/                               
+# By A.S
+
+# This is a program to manage Notes.
+# It is consol based. You can interact with it by a few pre-set instructions:
+#   1. Create Note: Asks for a title and content and makes a new note.
+#   2. Read Note: Asks for a title of an exsiting note and prints the content.
+#   3. Update Note: Alows you to update the contents of a note.
+#   4. Delete Note: Asks for a name and then deletes that note.
+#   5. See Notes: Shows all the names of exsiting notes.
+#   6. Quit: Terminates the program.
+
 import os
 
 class Note:
